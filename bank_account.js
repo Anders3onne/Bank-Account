@@ -30,7 +30,7 @@ $(document).ready(function () {
 
 
 
-        //gether user info and hide form    
+
         $("#user-info").show();
         $("form#contact").hide();
         $("#user-info h1").text(newName.fullName());
@@ -43,7 +43,7 @@ $(document).ready(function () {
             $("#bank-deposit").toggle();
             $("#withdraw").hide();
         });
-        //open withdraw form
+
         $("#withdraw").click(function () {
             $("#bank-withdraw").toggle();
             $("#deposit").hide();
